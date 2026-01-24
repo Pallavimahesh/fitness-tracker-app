@@ -8,6 +8,7 @@ require("./models/mealLog.model");
 require("./models/exercise.model");
 require("./models/exerciseLog.model");
 const app = express();
+
 app.use(express.json());
 (async () => {
   try {
